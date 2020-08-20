@@ -94,7 +94,10 @@ end MyEntity;
 -- Notice the title is centered. Statements that follow are left justified.
 -- 
 -- Some companies put a limit on how long a line can be, typically 80, 100, or 120 characters.
--- I chose 100 for this demo. 
+-- I chose 100 for this demo. Notice how my long lines of ------'s are 100 characters?
+-- That's not an accident. If you make line of -'s, //'s, or whatever the comment marker is,
+-- and make it the maximum acceptable line length, you always have an easy-to-use visual 
+-- guide to tell you when you're near the limit.
 ----------------------------------------------------------------------------------------------------
 
 architecture behavioral_MyEntity of MyEntity is 
